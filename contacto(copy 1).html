@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href= "stile.css">
+    <title>ARTESANÍAS NUNKINÍ</title>
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logoart.png"></a>
+        <h1>Mi empresa</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="qien.HTML">Quienes-somos</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Contáctanos</h1>
+        <div class="contacto">
+            <!-- Formulario de contacto -->
+            <div class="formulario-contacto">
+                <h2>Envíanos un mensaje</h2>
+                <form action="https://formsunbmit.co/argaezmarcos@gmail.com" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+    
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+    
+            <!-- Información de contacto -->
+            <div class="info-contacto">
+                <h2>Visítanos</h2>
+                <p>Dirección: Chihuahua Calle 21, NUNKINÍ, México</p>
+                <p>Teléfono: 9961106698</p>
+                <p>Email: contacto@artesaníasnunkiní.com</p>
+    
+                <!-- Google Maps -->
+               <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3739.6155816784644!2d-90.148165!3d20.398733999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDIzJzU1LjQiTiA5MMKwMDgnNTMuNCJX!5e0!3m2!1ses-419!2smx!4v1749129972702!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2025 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+           
+           <a href="https://www.instagram.com/artesaniasnunkini?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+      
+        </div>
+        <p>Contacto: info@artesaníasnunkiní.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>

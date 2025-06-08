@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="stile.css">
+    <title>Catálogo de Productos</title>
+
+</head>
+<body>
+    <!-- Sección encabezado -->
+   <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logoart.png"></a>
+        <h1>ARTESANÍAS NUNKINÍ</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href= "qien.HTML">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href= "contacto(copy%201).html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de contenido principal-->
+    <main>
+        <h1>Catálogo de Productos</h1>
+        <div class="catalogo">
+            <!-- Producto  1 -->
+            <div class="producto">
+                <img src="imagen/imagenes/abuela petate.jpg" alt="Producto 1">
+                <div class="producto-info">
+                    <h2>Petate</h2>
+                    <p>Petate hecho a mano</p>
+                    <p class="precio">$300.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="imagen/imagenes/Blusa1.jpg" Producto 2>
+                <div class="producto-info">
+                    <h2>Blusa</h2>
+                    <p>Blusa bordada.</p>
+                    <p class="precio">$600.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="imagen/imagenes/HAMACA 2.webp" alt="Producto 3">
+                <div class="producto-info">
+                    <h2>Hamaca</h2>
+                    <p>Hamaca tejida.</p>
+                    <p class="precio">$400.00</p>
+                </div>
+            </div>
+    
+            <!-- Producto 4 -->
+            <div class="producto">
+                <img src="imagen/imagenes/Servilletas1.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Servilleta</h2>
+                    <p>Servilleta bordada a mano.</p>
+                    <p class="precio">$100.00</p>
+                </div>
+            </div>
+
+            <!-- Producto 5 -->
+            <div class="producto">
+                <img src="pulsera.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Pulsera</h2>
+                    <p>Pulseras tejidas de hilo.</p>
+                    <p class="precio">$25.00 c/u</p>
+                </div>
+            </div>
+            <!-- Producto 6 -->
+            <div class="producto">
+                <img src="imagen/imagenes/Huipil1.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Huipil</h2>
+                    <p>Huipil bordado.</p>
+                    <p class="precio">$2000.00</p>
+                </div>
+            </div>
+            <!-- Producto 7 -->
+            <div class="producto">
+                <img src="imagen/imagenes/puulsera.webp" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Pulsera</h2>
+                    <p>Pulsera tejida ojo turco.</p>
+                    <p class="precio">$50.00</p>
+                </div>
+            </div>
+            <!-- Producto 8 -->
+            <div class="producto">
+                <img src="imagen/imagenes/petate.jpg" alt="Producto 4">
+                <div class="producto-info">
+                    <h2>Petate</h2>
+                    <p>Petate patron zigzag.</p>
+                    <p class="precio">$500.00</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2024 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+           
+       <a href="https://www.instagram.com/artesaniasnunkini?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+      
+        </div>
+        <p>Contacto: artesaniasnunkini@gmail.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+    </script>
+</body>
+</html>

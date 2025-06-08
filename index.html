@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Mi pagina WEB</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+<body>
+    <!-- Sección encabezado -->
+    <header class="header">
+        <a href="Index.html" class="logo"><img src="imagen/logoart.png"></a>
+        <h1>ARTESANÍAS NUNKINÍ</h1>
+        <nav class="navbar">
+            <span class="icon" onclick="toggleMenu()">&#9776;</span>
+            <ul class="menu" id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href= "qien.HTML">Quiénes Somos</a></li>
+                <li><a href="productos.html">Catálogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Sección de contenido principal-->
+    <main>
+        <!-- Sección de la empresa -->
+        <section id="empresa" class="columnas">
+            <div class="izquierda">
+                <img src="imagen/index/artesanías.png" alt="quienes_somos">
+            </div>
+            <div class="derecha">
+                <h2>ARTESANÍAS NUNKINÍ</h2>
+                <p>Somos un grupo de jóvenes de bachillerato con la misión de promover el trabajo que realizan los (as) artesanos (as) del pueblo del que somos originarios: "Nunkiní". Este se encuentra en la parte norte del estado de Campeche en el municipio de Calkiní.</p> 
+				<p>Contamos con diversos productos de la más alta calidad como hamacas, pulseras de hilo, petates y diversidad de prendas bordadas. </p>   
+				<p>Valoramos el trabajo que realizan los pobladores de nuestra comunidad, creemos en la calidad y el empeño de su trabajo, por ello a través de esta página y nuestras diversas redes sociales damos a conocer las artesanías de nuestro pueblo.</p>
+				<p>"HECHO CON AMOR Y TRADICIÓN"</p>
+            </div>
+        </section>
+
+        <!-- Sección de Promociones -->
+        <section id="promocion">
+            <h2>PROMOCIONES</h2>
+            <div class="catalogo">
+                <!-- promocion 1 -->
+                <div class="producto">
+                    <img src="imagen/index/promoción1.png" alt="Producto 1">
+                    <div class="producto-info">
+                        <h2>Promoción Especial</h2>
+                        <p>Obtén nuestro paquete en oferta, incluye: una hamaca de 6 tubos junto con un petate de 1m x 0.5m.</p>
+                    </div>
+                </div>
+                <!-- promocion 2 -->
+                <div class="producto">
+                    <img src="imagen/index/promoción2.png" alt="Producto 2">
+                    <div class="producto-info">
+                        <h2>Promoción Especial</h2>
+                        <p>Adquiere nuestro paquete "bordados", este incluye: una blusa y una servilleta con el bordado de tu preferencia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios y Precios -->
+        <section id="servicios" class="columnas">
+            <div class="en medio">
+                <h2>SERVICIOS Y PRECIOS</h2>
+                <ul>
+                    <li>Huipil con bordado de flores: $650</li>
+                    <li>Servilletas bordado personalizado: $300</li>
+                    <li>Juego de Petates: $1,000</li>
+                    <li>Rollo de pulseras personalizadas: $450</li>
+					<li>Hamaca personalizada de 8 tubos: $800</li>
+                    <!-- Agregar más servicios según sea necesario -->
+                </ul>
+            </div>
+           
+        </section>
+
+        <!-- Sección de Marcas -->
+        <section id="marcas">
+            <h2>NUESTROS PRODUCTOS</h2>
+            <div class="brands">
+                <img src="imagen/index/petates.png" alt="Marca">
+                <img src="imagen/index/bordados.png" alt="Marca 2">
+                <img src="imagen/index/pulserashilo.png" alt="Marca 3">
+                <img src="imagen/index/hamacas.png" alt="Marca 4">
+            </div>
+        </section>
+    </main>
+
+    <!-- Sección de Pie de pagina -->
+    <footer>
+        <p>&copy; 2024 Mi empresa. Todos los derechos reservados.</p>
+        <div class="redes-sociales">
+           
+             <a href="https://www.instagram.com/artesaniasnunkini?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a>
+      
+        </div>
+        <p>Contacto: info@tuempresa.com</p>
+    </footer>
+
+    <!-- script Codigo de JavaScript -->
+    <script>
+        // Función para mostrar u ocultar el menú en móviles
+        function toggleMenu() {
+          const menu = document.getElementById("menu");
+          menu.classList.toggle("responsive");
+        }
+      </script>
+</body>
+</html>
